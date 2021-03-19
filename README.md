@@ -1,5 +1,11 @@
-initialization du projet avec
+# structure de l'aplication
 
-` create react-app gpmoney -- template typescript`
+### installation de styled components
 
-et nettoyer le projet
+Styled components c'est une bibliothèque de css in js , la différence  
+c'est que nous n'avons pas besoin d'insérer le className sont les composants,
+que sont stylisé
+
+#### installation
+
+`yarn add styled-components`
