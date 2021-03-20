@@ -1,5 +1,5 @@
-# La mise en composants
+# Fake Api
 
-### creation et stylization du TransactionTable
+### Intallation MirageJS
 
-border-spacing : utilisé pour l'espacement de une table
+`yarn add miragejs`
