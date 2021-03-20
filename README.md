@@ -1,3 +1,3 @@
-# structure de l'aplication
+# La mise en composants
 
-### creation et stylization du Header
+### creation et stylization du Summary
