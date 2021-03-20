@@ -7,6 +7,14 @@ export const Container = styled.form`
     font-size: 1.5rem;
     margin-bottom: 2rem;
   }
+  input[type="number"] {
+    -moz-appearance: textfield;
+  }
+  input::-webkit-outer-spin-button,
+  input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
   input {
     width: 100%;
     padding: 0 1.5rem;

@@ -1,16 +1,18 @@
 # Modal & Forms
 
-### fonctionement des buttons
+### Enregistrement des données de form
 
-pour vérifier si le bouton a été modifié, utilisez le nom de classe  
-avec une condition:
+éviter le comportement d'envoi par défaut de rechargement de  
+ la page avec le FormEvent en tant que type et event la propriete:
 
 ```javascript
-className={type === 'deposit' ? 'active': ''}
+function handleCreateNewTransaction(event: FormEvent) {
+  event.preventDefault();
+}
 ```
 
-ou un composant des composants stylisés avec de propriétés:
+et pour avoir accès aux données du formulaire avec:
 
 ```javascript
-isActive={type === 'deposit'}
+onChange={event => setTitle(event.target.value) }
 ```
