@@ -1,11 +1,14 @@
-# Fake Api
+# Modal & Forms
 
-### Intallation axios
+### React modal
 
-axios il intercepte les requêtes du front end avant d'atteindre le backend
-Exemple :
-déconnecte un utilisateur avec un jeton expiré
+`yarn add react-modal `
 
-#### installation axios
+lorsque nous avons besoin qu'un état d'application soit  
+contrôlé par un élément enfant, nous pouvons passer une  
+fonction pour modifier les informations.
 
-`yarn add axios`
+chaque fois que j'ai besoin d'une information à partager  
+ dans plusieurs composants, transmettez les informations  
+ à un composant qui entoure tout le monde (composant parent)  
+ afin que tous les composants aient accès
