@@ -1,12 +1,16 @@
 # Modal & Forms
 
-### estructure du form et modal
+### fonctionement des buttons
 
-pour styliser le modal, ajoutez deux propriétés dans le Modal:
+pour vérifier si le bouton a été modifié, utilisez le nom de classe  
+avec une condition:
 
 ```javascript
-overlayClassName = "react-modal-overlay";
-className = "react-modal-content";
+className={type === 'deposit' ? 'active': ''}
 ```
 
-puis stylisez dans le fichier global
+ou un composant des composants stylisés avec de propriétés:
+
+```javascript
+isActive={type === 'deposit'}
+```
