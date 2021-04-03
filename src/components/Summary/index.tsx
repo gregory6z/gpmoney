@@ -9,6 +9,7 @@ import { Container } from "./styles";
 
 export function Summary() {
 
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   const transactions = useContext(TransactionsContext)
 
 
