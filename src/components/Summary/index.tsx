@@ -10,8 +10,32 @@ import { Container } from "./styles";
 export function Summary() {
 
   // eslint-disable-next-line @typescript-eslint/no-unused-vars
-  const transactions = useContext(TransactionsContext)
+  const {transactions} = useContext(TransactionsContext)
 
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
+  //const totalDeposits = transactions.reduce((acc, transaction) => { 
+   // if(transaction.type === 'deposit'){
+   //   return acc + transaction.amount;
+  //  }
+  //  return acc;
+  //}, 0)
+
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
+  const summary = transactions.reduce((acc, transaction) =>{
+    if (transaction.type === 'deposit'){
+      acc.deposits += transaction.amount;
+      acc.total += transaction.amount;
+
+    } else{
+      acc.withdraws += transaction.amount;
+      acc.total -= transaction.amount;
+    }
+    return acc
+  },{
+    deposits: 0 ,
+    withdraws: 0 , 
+    total: 0 
+  })
 
   return (
     <Container>
@@ -21,7 +45,10 @@ export function Summary() {
           <img src={incomeImg} alt="Entrées"/>
         </header>
         <strong>
-        1000,00€ 
+        {new Intl.NumberFormat('fr',{
+                  style:'currency',
+                  currency:'EUR'
+                }).format(summary.deposits)}
         </strong>
       </div>
       <div>
@@ -30,7 +57,10 @@ export function Summary() {
           <img src={outcomeImg} alt="Sorties"/>
         </header>
         <strong>
-         -500,00€ 
+         -    {new Intl.NumberFormat('fr',{
+                  style:'currency',
+                  currency:'EUR'
+                }).format(summary.withdraws)}
         </strong>
       </div>
       <div className="highlight-background">
@@ -39,7 +69,10 @@ export function Summary() {
           <img src={totalImg} alt="Entrées"/>
         </header>
         <strong>
-         500,00€ 
+        {new Intl.NumberFormat('fr',{
+                  style:'currency',
+                  currency:'EUR'
+                }).format(summary.total)}
         </strong>
       </div>
     </Container>
