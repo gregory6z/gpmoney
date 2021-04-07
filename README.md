@@ -27,7 +27,7 @@ les states et les contexts.
 * [React](https://pt-br.reactjs.org/E)
 * [Typescript](https://www.typescriptlang.org/)
 * [StyledComponents](https://styled-components.com/)
-* 
+* [Miragejs](https://miragejs.com/)
 
 
 &nbsp;
