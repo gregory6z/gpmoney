@@ -37,7 +37,7 @@ $ git clone https://github.com/gregory6z/ignite-reactjs-02-gpmoney.git
 ```
 
 ```
-# Acesse a pasta da aplicação
+# Accédez au dossier de l'application
 $ cd ignite-reactjs-02-gpmoney
 
 # Installez les dépendances
