@@ -7,13 +7,13 @@
 
 ## 📚 Renseignements sur le projet
 
-\*Le gp-money c'est une aplication de contrôle des finances personnelles, où enregistrez-vous vos dépôts et vos dépenses pour mieux contrôler votre argent.
+Le gp-money c'est une aplication de contrôle des finances personnelles, où enregistrez-vous vos dépôts et vos dépenses pour mieux contrôler votre argent.
 
 &nbsp;
 
 ## ❓ Objectif du projet
 
-\*Ce projet a été développé pendant l'un des chapitres Ignite par Rocketseat! Où les principaux concepts de react sont enseignés en tant que les composants,
+Ce projet a été développé pendant l'un des chapitres Ignite par Rocketseat! Où les principaux concepts de react sont enseignés en tant que les composants,
 les states et les contexts.
 
 &nbsp;
@@ -56,4 +56,4 @@ Ce projet est autorisé sous la licence MIT.
 
 ---
 
-<p align="center">Gregory Praxedes</p>
+<p align="center">developed by Gregory Praxedes</p>
