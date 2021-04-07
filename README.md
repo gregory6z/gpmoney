@@ -1,6 +1,6 @@
 # gp-money 🚀
 
-<img src="./assets/gpmoney.png" width="100%" />
+<img src="/public/gpmoney.png" width="100%" />
 <img src="./assets/gpgift.gif" width="100%" />
 <img src="./assets/logo.svg" width="100%" />
 &nbsp;
