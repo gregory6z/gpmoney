@@ -1,8 +1,8 @@
 # gp-money 🚀
 
 <img src="/public/gpmoney.png" width="100%" />
-<img src="./assets/gpgift.gif" width="100%" />
-<img src="./assets/logo.svg" width="100%" />
+
+
 &nbsp;
 
 ## 📚 Renseignements sur le projet
@@ -18,10 +18,6 @@ les states et les contexts.
 
 &nbsp;
 
-&nbsp;
-
-&nbsp;
-
 ## 🛠️ Technologies / outils utilisés
 
 - [React](https://pt-br.reactjs.org/E)
@@ -30,7 +26,7 @@ les states et les contexts.
 - [Miragejs](https://miragejs.com/)
 
 &nbsp;
-
+<img src="/public/gpgift.gif" width="100%" />
 &nbsp;
 
 ## ⚙️ Installation
