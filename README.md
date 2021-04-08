@@ -1,7 +1,10 @@
-# gp-money 🚀
+<img src="/public/logo 2.png"  width="20%" />
+
+&nbsp;
 
 <img src="/public/gpmoney.png" width="100%" />
-
+  
+  
 
 &nbsp;
 
@@ -54,6 +57,8 @@ $ yarn start
 
 Ce projet est autorisé sous la licence MIT.
 
----
 
-<p align="center">developed by Gregory Praxedes</p>
+---
+<p align="center">developed by  <a href="https://www.linkedin.com/in/gregory-praxedes-2189b4207/">Gregory Praxedes</a> </p>
+
+
